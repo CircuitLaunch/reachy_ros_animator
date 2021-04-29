@@ -6,6 +6,7 @@ In this repository, you fill find:
 * A script, animate, to publish a sequence_animation topic that will induce the ROS node to animate Reachy's arms
 * Sample animation files
 
+
 ##Documentation
 
 ###Installation
