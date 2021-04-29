@@ -1,12 +1,13 @@
 # reachy_ros_animator
+
+[![Reachy_Wavey](https://i9.ytimg.com/vi/ooDOEgaJRq8/mq3.jpg?sqp=CNC8rIQG&rs=AOn4CLBnuRXK6-lL8_p95mC8zfVb0sOIdw)](https://youtu.be/ooDOEgaJRq8)
+
 A ROS node to load and play animations to animate CoLab Reachy's arms.
 
 In this repository, you fill find:  
 * A ROS package, reachy_ros_animator, containing a ROS node, sequencer.py  
 * A script, animate, to publish a sequence_animation topic that will induce the ROS node to animate Reachy's arms  
 * Sample animation files
-
-[![Reachy_Wavey](https://i9.ytimg.com/vi/ooDOEgaJRq8/mq3.jpg?sqp=CNC8rIQG&rs=AOn4CLBnuRXK6-lL8_p95mC8zfVb0sOIdw)](https://youtu.be/ooDOEgaJRq8)
 
 ## Documentation
 
