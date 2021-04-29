@@ -8,9 +8,10 @@ In this repository, you fill find:
 
 ##Documentation
 
-###Installation
-Change directory to your local catkin_ws/src directory.
+###Installation  
+Change directory to your local catkin_ws/src directory.  
 Clone the reachy_ros_animator repo.
+
 > $ git clone https://github.com/CircuitLaunch/reachy_ros_animator
 
 Change directory to catkin_ws and make.
