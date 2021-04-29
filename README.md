@@ -56,10 +56,10 @@ Animation keys are listed one per line and may be any of the following. Each lin
 
 #### Command reference
 
-dxl -- set actuator goal_position
-> &lt;key_frame_durationt&gt; dxl &lt;reachy_part_namet&gt; &lt;goal_position> &lt;slerp_time&gt;  
+dxl -- set actuator goal_position  
+> &lt;key_frame_duration&gt; dxl &lt;reachy_part_name&gt; &lt;goal_position> &lt;slerp_time&gt;  
 > &nbsp;&nbsp;&lt;reachy_part_name&gt; -- string name of the reachy part  
-> &nbsp;&nbsp;&lt;goal_position&gt;&nbsp;&nbsp;&nbsp;&nbsp;-- floating point goal angle in degrees
+> &nbsp;&nbsp;&lt;goal_position&gt;&nbsp;&nbsp;&nbsp;&nbsp;-- floating point goal angle in degrees  
 > &nbsp;&nbsp;&lt;slerp_time&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-- the period over which to actuate
 
 load -- load an animation from a file
