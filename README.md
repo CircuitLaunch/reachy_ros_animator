@@ -7,9 +7,9 @@ In this repository, you fill find:
 * Sample animation files
 
 
-##Documentation
+## Documentation
 
-###Installation
+### Installation
 
 Change directory to your local catkin_ws/src directory.  
 Clone the reachy_ros_animator repo.
