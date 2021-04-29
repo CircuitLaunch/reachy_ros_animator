@@ -72,6 +72,7 @@ load -- load an animation from a file
 > &lt;key_frame_durationt&gt; # &lt;comment&gt;
 
 #### Example animation file
+
 > 0 dxl left_arm.shoulder_pitch -90 2  
 > 0 dxl left_arm.shoulder_roll 0 1  
 > 0 dxl left_arm.hand.wrist_pitch 45 1  
