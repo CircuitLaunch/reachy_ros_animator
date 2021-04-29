@@ -11,7 +11,7 @@ In this repository, you fill find:
 ###Installation
 Change directory to your local catkin_ws/src directory.
 Clone the reachy_ros_animator repo.
-> git clone https://github.com/CircuitLaunch/reachy_ros_animator
+> $ git clone https://github.com/CircuitLaunch/reachy_ros_animator
 
 Change directory to catkin_ws and make.
 
@@ -22,11 +22,11 @@ Change directory to catkin_ws and make.
 
 Assuming that roscore has already been launched, run the node.
 
-> rosrun reachy_ros_animator sequencer.py
+> $ rosrun reachy_ros_animator sequencer.py
 
 ### Playing animations
 
 Change directory to the scripts folder within the local reachy_ros_animator repo, and execute animate passing one of the animation files.
 
-> cd src/reachy_ros_animator/scripts  
-> ./animate right_wave_animation
+> $ cd src/reachy_ros_animator/scripts  
+> $ ./animate right_wave_animation
