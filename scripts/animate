@@ -1,0 +1,1 @@
+rostopic pub -1 sequence_animation std_msgs/String "0 load $PWD/$1"
