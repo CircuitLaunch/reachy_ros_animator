@@ -15,8 +15,8 @@ Clone the reachy_ros_animator repo.
 
 Change directory to catkin_ws and make.
 
-> catkin_make
-> source devel/setup.bash
+> $ catkin_make  
+> $ source devel/setup.bash
 
 ### Running the node
 
