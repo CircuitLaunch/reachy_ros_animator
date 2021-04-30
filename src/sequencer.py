@@ -237,7 +237,7 @@ class Sequencer:
 
         for m in self.reachy.left_arm.motors:
             m.compliant = False
-	
+
         # subscrive to sequence_filepath topic
         self.sequenceSubscriber = rospy.Subscriber(
                 'sequence_animation',
@@ -265,7 +265,8 @@ class Sequencer:
         with open(fileName, 'r') as f:      # open a file
             for line in f:                  # iterate through file line by line
                 tokens = line.split()       # split line into tokens
-                sequence.append(tokens)     # append token list to sequence list
+				if len(tokens) > 0:
+                	sequence.append(tokens) # append token list to sequence list
 
         self.playSequence(sequence)         # call function to start playing
 
@@ -306,5 +307,5 @@ if __name__ == '__main__':
 # Main entry point
     parts.arm.RightForceGripper = patch_force_gripper(parts.arm.RightForceGripper)
     parts.arm.LeftForceGripper = patch_force_gripper(parts.arm.LeftForceGripper)
-   
+
     Sequencer(right_arm_io='/dev/ttyUSB*', left_arm_io='/dev/ttyUSB*')                             # start the node
